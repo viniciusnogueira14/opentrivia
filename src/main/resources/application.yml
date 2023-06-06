@@ -1,0 +1,13 @@
+open-trivia:
+  protocol: https
+  host: opentdb.com
+  path:
+    api: api.php
+    category: api_category.php
+    token: api_token.php
+export:
+  file:
+    field-delimiter: ','
+    list-delimiter: '-'
+    path: /home/nick/
+    name: export.csv
